@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <style>
+        body{background-color:slategrey;}
+        #forms{background-color:aqua;padding:30px;
+        border:2px solid black;
+    margin:20px;
+width:500px;;
+display:table;}
+.row{display:table-row;}
+.row label{display:table-cell;
+}
+.row input,.row select{display:table-cell;
+    text-align: right;}
+    </style>
+</head>
+<body>
+    <h1>ECX 3.0</h1>
+    <h2>Registration Form</h2>
+    <h3>Kindly fill this form:</h3>
+    <form id="forms" action="" method="">
+        <div class="row">
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+        <br><br>
+        </div>
+        <div class="row">
+            <label for="school">School:</label>
+            <select id="school">
+                <option value="UNILAG">UNILAG</option>
+                <option value="OAU">OAU</option>
+                <option value="UI">UI</option>
+                <option value="UNILORIN">UNILORIN</option>
+            </select>
+        <br><br>
+        </div>
+        <div class="row">
+            <label for="level">Level:</label>
+            <select id="level">
+                <option value="100">100</option>
+                <option value="200">200</option>
+                <option value="300">300</option>
+                <option value="400">400</option>
+                <option value="500">500</option>
+            </select>
+        <br><br>
+        </div>
+        <div class="row">
+            <label for="department">Department:</label>
+            <input id="department" type="text">
+            <br><br>
+        </div>
+        <div class="row">
+            <label for="email">e-mail:</label>
+            <input id="email" type="email">
+            <br><br>
+        </div>
+        <div class="row">
+            <label for="phone">Telephone:</label>
+            <input id="phone" type="text">
+            <br><br>
+        </div>
+        <div class="row">
+            <label for="ecx">How were you introduced to ECX:</label>
+            <select id="ecx">
+                <option value="friends">Friend</option>
+                <option value="social">Social media</option>
+                <option value="advert">Advert</option>
+            </select>
+        </div>
+        <div class="row">
+            Comment:
+            <br>
+            <textarea rows="10" columns="30">
+            </textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </div>
+
+    </form>
+
+    </form>
+    
+</body>
+</html>
